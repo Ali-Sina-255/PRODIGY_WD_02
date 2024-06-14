@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Second Task</title>
-</head>
-<body>
-	<h1>Second task</h1>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Stopwatch</h1>
+      <div class="time">
+        <span id="minutes">00</span>:<span id="seconds">00</span>:<span
+          id="milliseconds"
+          >00</span
+        >
+      </div>
+      <div class="buttons">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+      </div>
+      <div class="laps">
+        <h2>Laps</h2>
+        <ul id="lap-list"></ul>
+      </div>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
